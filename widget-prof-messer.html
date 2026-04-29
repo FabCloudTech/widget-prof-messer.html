@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professor Messer</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #191919; font-family: 'JetBrains Mono', monospace; width: 100%; overflow: hidden; }
+  body { padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+  .pink-bar { background: #FF4FA3; border-radius: 10px; padding: 9px 16px; display: flex; justify-content: space-between; align-items: center; }
+  .pink-bar-title { font-size: 10px; font-weight: 800; color: #fff; letter-spacing: 0.08em; }
+  .pink-bar-badge { font-size: 8px; font-weight: 800; background: rgba(0,0,0,0.2); color: #fff; padding: 2px 9px; border-radius: 20px; letter-spacing: 0.08em; }
+  .res-card { background: #1e1e1e; border: 1px solid #2a2a2a; border-radius: 10px; padding: 10px 13px; display: flex; align-items: center; gap: 10px; text-decoration: none; transition: background 0.15s, border-color 0.15s; }
+  .res-card:hover { background: #242424; border-color: #3a2a3a; }
+  .res-icon { font-size: 16px; flex-shrink: 0; width: 24px; text-align: center; }
+  .res-info { flex: 1; min-width: 0; }
+  .res-name { font-size: 11px; font-weight: 800; color: #fff; margin-bottom: 2px; }
+  .res-desc { font-size: 9px; color: #555; font-weight: 600; line-height: 1.4; }
+  .res-tag { font-size: 8px; font-weight: 800; padding: 2px 8px; border-radius: 20px; flex-shrink: 0; letter-spacing: 0.06em; white-space: nowrap; }
+  .tag-free { background: rgba(102,255,212,0.1); color: #66FFD4; border: 1px solid rgba(102,255,212,0.2); }
+  .tag-paid { background: rgba(255,183,71,0.1); color: #FFB347; border: 1px solid rgba(255,183,71,0.2); }
+  .tag-hot  { background: rgba(255,79,163,0.1); color: #FF4FA3; border: 1px solid rgba(255,79,163,0.2); }
+</style>
+</head>
+<body>
+  <div class="pink-bar">
+    <div class="pink-bar-title">🎥 Professor Messer</div>
+    <div class="pink-bar-badge">SEC+ SY0-701</div>
+  </div>
+
+  <a class="res-card" href="https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/" target="_blank">
+    <div class="res-icon">📺</div>
+    <div class="res-info"><div class="res-name">Full Course (121 Videos)</div><div class="res-desc">15 hrs · every SY0-701 topic · 100% free</div></div>
+    <div class="res-tag tag-hot">TOP PICK</div>
+  </a>
+
+  <a class="res-card" href="https://www.professormesser.com/sy0-701-certification-course/" target="_blank">
+    <div class="res-icon">📋</div>
+    <div class="res-info"><div class="res-name">Course Hub</div><div class="res-desc">All study materials in one place · start here</div></div>
+    <div class="res-tag tag-free">FREE</div>
+  </a>
+
+  <a class="res-card" href="https://www.professormesser.com/sy0-701-secplus-resources/" target="_blank">
+    <div class="res-icon">💎</div>
+    <div class="res-info"><div class="res-name">Study Resources Page</div><div class="res-desc">Videos · notes · exam tools · all linked</div></div>
+    <div class="res-tag tag-free">FREE</div>
+  </a>
+
+  <a class="res-card" href="https://www.professormesser.com/sy0-701-success-bundle/" target="_blank">
+    <div class="res-icon">📦</div>
+    <div class="res-info"><div class="res-name">Success Bundle</div><div class="res-desc">Course notes · 3 practice exams · audio · $119</div></div>
+    <div class="res-tag tag-paid">PREMIUM</div>
+  </a>
+
+  <a class="res-card" href="https://www.professormesser.com/category/security-plus/sy0-701/sy0-701-video/" target="_blank">
+    <div class="res-icon">🔥</div>
+    <div class="res-info"><div class="res-name">Monthly Study Group</div><div class="res-desc">Live Q&A sessions · exam tips · career advice</div></div>
+    <div class="res-tag tag-free">FREE</div>
+  </a>
+</body>
+</html>
